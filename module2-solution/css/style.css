@@ -59,7 +59,7 @@ h2 {
   .col {
     float: left;
     margin: auto;
-    width: 33.33%;
+    width: 50%;
   }
 
   #col3 {
@@ -68,7 +68,7 @@ h2 {
 }
 
 @media (max-width: 767px) {
-  .section {
+  .col {
     width: 100%;
   }
 }
