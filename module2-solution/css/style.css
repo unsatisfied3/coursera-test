@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 6px 48px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.content {
+  position: relative;
+  background-color: #b9b9b9;
+  border: 1px solid black;
+  margin: 15px;
+  padding: 20px;
+  padding-top: 45px;
+  font-size: 100%;
+}
+
+.Pizza {
+  background-color: #da40c0;
+  color: black;
+}
+
+.Beer {
+  background-color: #6be7a4;
+  color: white;
+}
+
+.Fries {
+  background-color: #8775fd;
+  color: rgb(159, 182, 56);
+}
+
+@media (min-width: 992px) {
+  .col {
+    float: left;
+    margin: auto;
+    width: 33.33%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col {
+    float: left;
+    margin: auto;
+    width: 33.33%;
+  }
+
+  #col3 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .section {
+    width: 100%;
+  }
+}
